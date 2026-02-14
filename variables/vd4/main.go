@@ -2,11 +2,13 @@ package main
 
 import "fmt"
 
-func main() {
+var (
+	a int    = 1
+	b int    = 2
+	c string = "Hello"
+)
 
-	var a string
-	var b int
-	var c bool
+func main() {
 
 	fmt.Println(a)
 	fmt.Println(b)
